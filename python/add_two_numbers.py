@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/add-two-numbers/ #
+from typing import *
 
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -6,7 +7,7 @@
 #         self.val = val
 #         self.next = next
 class Solution(object):
-    def addTwoNumbers(self, l1, l2):
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode):
         """
         :type l1: ListNode
         :type l2: ListNode

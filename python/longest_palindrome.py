@@ -1,9 +1,10 @@
 # https://leetcode.com/problems/longest-palindromic-substring/ #
+from typing import *
 
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         n: int = len(s)
-        result: list[str] = [  ]
+        result: List[str] = [  ]
         if n <= 1: return s
 
         for i in range(0, n):
